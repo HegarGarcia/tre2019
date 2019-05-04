@@ -1,0 +1,22 @@
+{
+  "name": "tre2019",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start:client": "node src/client.js",
+    "start:doors": "node src/doors.js"
+  },
+  "author": "JHUO",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "lodash": "^4.17.11",
+    "mqtt": "^2.18.8"
+  },
+  "devDependencies": {
+    "@types/node": "^11.12.0"
+  }
+}
